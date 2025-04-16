@@ -1,0 +1,29 @@
+
+.homepage {
+    background-image: url('.././assets/homePage.jpg'); 
+    background-size:cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    width: 100%; 
+    height: 100vh; 
+
+}
+
+.login-btn {
+    background-color: #2ecc39; // Bright green
+    color: black;
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding: 0.8rem 2rem;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    clip-path: polygon(0 0, 100% 0, 100% 80%, 90% 100%, 0 100%);
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  
+    &:hover {
+      background-color: #28b132;
+    }
+  }
+  
